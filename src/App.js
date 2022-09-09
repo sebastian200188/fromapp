@@ -33,7 +33,7 @@ function App() {
       <Navbar brand='App Comercio Colaborativo' />
       <div className="container">
         <div className="row">
-          <div className="">
+          <div>
             <h2 className="mb-3" style={{textAlign: 'center'}}>FORMULARIO REGISTRO</h2>
             <Form form={form} setform={setform} />
           </div>
