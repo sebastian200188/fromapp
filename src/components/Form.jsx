@@ -1,24 +1,24 @@
 import React from "react";
 
 
-const Form = ({form, setform}) => {
+const Form = ({heroku_9dab5d1d4fe89e1, setform}) => {
 
     const handleChange = e => {
         setform({
-            ...form,
+            ...heroku_9dab5d1d4fe89e1,
             [e.target.name]: e.target.value
         })
     }
 
     const handleSubmit = () => {
-        if (form.Nombre === '' || form.Cédula === '' || form.Domicilio === '' || form.Ciudad === '' || form.Correo === '' || form.Whatsapp === '' || form.Actividad === '') {
-            alert('Ttodos los campos son obligatorios')
+        if (heroku_9dab5d1d4fe89e1.Nombre === '' || heroku_9dab5d1d4fe89e1.Cédula === '' || heroku_9dab5d1d4fe89e1.Domicilio === '' || heroku_9dab5d1d4fe89e1.Ciudad === '' || heroku_9dab5d1d4fe89e1.Correo === '' || heroku_9dab5d1d4fe89e1.Whatsapp === '' || heroku_9dab5d1d4fe89e1.Actividad === '') {
+            alert('Todos los campos son obligatorios')
         }
 
         const requestInit = {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify(form)
+            body: JSON.stringify(heroku_9dab5d1d4fe89e1)
         }
 
         fetch('https://comercioform-api-mysql.herokuapp.com/api', requestInit)

@@ -7,7 +7,7 @@ import Form from "./components/Form";
 
 function App() {
 
-  const [form, setform] = useState({
+  const [heroku_9dab5d1d4fe89e1, setform] = useState({
     Nombre: '',
     Cédula: '',
     Domicilio: '',
@@ -35,7 +35,7 @@ function App() {
         <div className="row">
           <div>
             <h2 className="mb-3" style={{textAlign: 'center'}}>FORMULARIO REGISTRO</h2>
-            <Form form={form} setform={setform} />
+            <Form form={heroku_9dab5d1d4fe89e1} setform={setform} />
           </div>
         </div>
       </div>
