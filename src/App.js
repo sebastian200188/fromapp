@@ -34,7 +34,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div>
-            <h2 className="mb-3" style={{textAlign: 'center'}}>FORMULARI REGISTRO</h2>
+            <h2 className="mb-3" style={{textAlign: 'center'}}>FORMULARIO REGISTRO</h2>
             <Form form={heroku_9dab5d1d4fe89e1} setform={setform} />
           </div>
         </div>
