@@ -12,8 +12,7 @@ const Form = ({heroku_9dab5d1d4fe89e1, setform}) => {
 
     const handleSubmit = () => {
         if (heroku_9dab5d1d4fe89e1.Nombre === '' || heroku_9dab5d1d4fe89e1.Cédula === '' || heroku_9dab5d1d4fe89e1.Domicilio === '' || heroku_9dab5d1d4fe89e1.Ciudad === '' || heroku_9dab5d1d4fe89e1.Correo === '' || heroku_9dab5d1d4fe89e1.Whatsapp === '' || heroku_9dab5d1d4fe89e1.Actividad === '') {
-            alert('Todos los campos son obligatorios')
-            return null;
+            return alert('Todos los campos son obligatorios')
         }
 
         const requestInit = {
