@@ -10,10 +10,10 @@ const Form = ({heroku_9dab5d1d4fe89e1, setform}) => {
         })
     }
 
-    let{Nombre, Cédula, Domicilio, Ciudad, Correo, Whatsapp, Actividad} = heroku_9dab5d1d4fe89e1
+    //let{Nombre, Cédula, Domicilio, Ciudad, Correo, Whatsapp, Actividad} = heroku_9dab5d1d4fe89e1
 
     const handleSubmit = () => {
-        if (Nombre === '' || Cédula === '' || Domicilio === '' || Ciudad === '' || Correo === '' || Whatsapp === '' || Actividad === '') {
+        if (heroku_9dab5d1d4fe89e1.Nombre === '' || heroku_9dab5d1d4fe89e1.Cédula === '' || heroku_9dab5d1d4fe89e1.Domicilio === '' || heroku_9dab5d1d4fe89e1.Ciudad === '' || heroku_9dab5d1d4fe89e1.Correo === '' || heroku_9dab5d1d4fe89e1.Whatsapp === '' || heroku_9dab5d1d4fe89e1.Actividad === '') {
             alert("debes llenar todos el formulario")
         }
 
